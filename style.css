@@ -1,0 +1,159 @@
+#bruh{
+    color:Orange;
+}
+.topnav {
+  background-color:#d8caae;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #acd1d1;
+  color:#556C37 ;
+}
+.topnav a.active {
+  background-color:#5ba1b0;
+  color: white;
+}
+h1{
+    color:gold;
+    font-size:50px;
+    text-align:center
+}
+hr{
+    height:20px;
+    width:20px;
+    border:none;
+    background-color:#978273;
+}
+h2{
+    color:#C20030;
+    font-size:30px;
+    text-align:center
+}
+.crab{
+    color:#e2471f;
+}
+.crab1{
+    background-color:#C20030;
+}
+.crab2{
+    color:#f89805;
+}
+.crab3{
+    color:#f8d48f;
+}
+.single{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.stinky{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+li{
+    color:#62383c;
+    font-size:30px;
+    text-align:center
+}
+.pp{
+    background-color:gold;
+}
+.PooPoo{
+    color:grey;
+}
+.Shrimp{
+    color:#C20030;
+}
+.couple{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+td{
+    color:#5ba1b0;
+    font-size:50px;
+    text-align:center
+}
+.stinky{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+td{
+    color:gold;
+}
+.gold{
+    background-color:gold;
+}
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.istockphoto.com/vectors/sky-and-sun-at-sea-background-ocean-and-beach-vector-island-scenery-vector-id1264799981?k=20&m=1264799981&s=170667a&w=0&h=S3gL3JXu6wDE_lpH1MIdDWp0I4wqj9fguSUiX2OVt9w=");
+  filter: blur(8px);
+  -webkit-filter: blur(5px);
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  body{
+    background-color:#f7f4e1;  
+  }
